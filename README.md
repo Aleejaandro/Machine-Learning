@@ -1,15 +1,21 @@
-# Proyecto de Clasificación: Detección de Enfermedades Cardíacas con Machine Learning
+## Tabla de Contenidos
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Dataset](#dataset)
+- [Proceso de trabajo](#proceso-de-trabajo)
+- [Resultados finales](#resultados-finales-y-decisión-del-modelo)
+- [Conclusión](#conclusión)
 
-## 📝 Descripción del Proyecto
+# Proyecto de Clasificación: Detección de Enfermedades Cardíacas con Machine Learning
+##  Descripción del Proyecto
 Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capaz de predecir si un paciente presenta enfermedad cardíaca, utilizando datos clínicos. La solución está orientada como sistema de apoyo al diagnóstico médico.
 
-## 📅 Dataset
+## Dataset
 - **Origen**: UCI Heart Disease Dataset
 - **Instancias**: 920 pacientes
 - **Etiquetas**: `0` (sano), `1` (enfermo)
 - **Variables**: edad, sexo, tipo de dolor torácico, presión, colesterol, etc.
 
-## 🧰 Proceso de trabajo
+##  Proceso de trabajo
 
 ### 1. Carga y exploración del dataset
 - Revisión de tipos, valores nulos y distribuciones.
@@ -48,7 +54,7 @@ Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capa
 - Se seleccionó un paciente aleatorio del conjunto de prueba.
 - Se mostró la predicción, la clase real y la probabilidad de enfermedad.
 
-## 📊 Resultados finales y decisión del modelo
+## Resultados finales y decisión del modelo
 
 | Modelo                | Accuracy | F1-score (Clase 1) | Recall (Clase 1) |
 |----------------------|----------|--------------------|------------------|
@@ -59,13 +65,13 @@ Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capa
 **Modelo elegido: Random Forest**
 Por su equilibrio entre rendimiento, robustez, interpretabilidad y facilidad para analizar la importancia de variables.
 
-## 📊 Conclusión
+## Conclusión
 El modelo desarrollado ofrece un buen rendimiento para tareas de clasificación binaria aplicadas a diagnóstico clínico. Puede ser utilizado como sistema de apoyo al profesional médico en decisiones tempranas sobre enfermedades cardíacas.
 
 Este proyecto demuestra el uso completo de un flujo de Machine Learning: desde exploración y preprocesamiento hasta evaluación y visualización.
 
 ---
-**Autor:** Alejandro  
+**Autor:** Alejandro Fuentes
 **Curso:** Máster en Inteligencia Artificial  
 **Módulo:** Machine Learning
 
